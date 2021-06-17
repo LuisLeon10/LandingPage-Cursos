@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background: #343A40 !important;
+}
+.container-fluid{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    border-bottom: 2px solid gainsboro;
+}
+.nav{
+    width: 100%;
+}
+.nav li a{
+    color: #f5f5f5;
+    width: 100px;
+    text-align: center;
+}
+.nav li a:hover{
+    background-color: darkgray;
+}
+.contenido1{
+    background-color: gainsboro;
+    padding: 5% 0%;
+}
+#contenido1temas{
+    display: flex;
+}
+.imagen{
+    display: block;
+    background-color: gray;
+    padding: 1.5%;
+    border-radius: 50%;
+    text-align: center;
+    color: gainsboro;
+}
+.imagen p{
+    margin: 0;
+    padding: 0;
+}
+#contenido1texto{
+    background-color: gainsboro;
+    text-align: center;
+}
+.contenido2{
+    display: flex;
+    background-color: gainsboro;
+}
+.contenido2 img{
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    object-position: center;
+    overflow: hidden;
+}
+.imgizq{
+    min-height: 600px !important;
+    max-height: 600px !important;
+}
+.col-sm-12{
+    margin: 0%;
+    padding: 0%;
+}
+.col-sm-6{
+    margin: 0%;
+    padding: 0%;
+}
+.contenido3{
+    background-color: gainsboro;
+    padding: 2% 0%;
+    text-align: center;
+    padding: 0;
+}
+.contenido3 h2{
+    padding: 1%;
+    margin: 0;
+}
+.contenido3-1{
+    display: flex;
+}
+#redes-container{
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    background-color: #343A40;
+}
+#redes-container nav{
+    width: 70%;
+    padding: 0;
+}
+#redes-container #redes{
+    margin: 0;
+    background-color: #343A40;
+    padding: 0;
+    justify-content: right;
+}
+#redes li{
+    margin: auto 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    float: right;
+}
+#redes li a{
+    display: block;
+    padding: 0px 20px;
+    background: #333;
+    color: white;
+    line-height: 40px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+}
+#redes li #facebook:hover{
+    background: #3b5999;
+}
+#redes li #twitter:hover{
+    background: #55acee;
+}
+#redes li #instagram:hover{
+    background: #e4405f;
+}
+@media screen and (max-width: 576px){
+    body{
+        display: inherit;
+    }
+    .nav-movil{
+        width: 100%;
+    }
+    .nav-movil button{
+        float: right;
+        border: gainsboro 1px solid;
+    }
+    #carrusel{
+        display: none;
+    }
+    #contenido1temas{
+        display: block;
+    }
+    .imagen{
+        width: 30%;
+    }
+    #seccion2{
+        display: none;
+        align-items: center;
+    }
+    .contenido3{
+        padding: 20px 0px;
+    }
+    .contenido3-1{
+        display: block;
+    }
+    .contenido3 h2{
+        padding: 10px 0px;
+    }
+    #redes-container{
+        height: 55px;
+    }
+    #redes-container .navbar{
+       display: none;
+    }   
+    #redes li{
+        margin: 0px 10px;
+        list-style: none;
+    }
+}
